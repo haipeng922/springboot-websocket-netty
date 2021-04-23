@@ -5,11 +5,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootWebsocketNettyApplication {
+public class Application {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(SpringbootWebsocketNettyApplication.class, args);
+		SpringApplication.run(Application.class, args);
 
 		//  启动器中需要new一个NettyServer，并显式调用启动netty。
         try {
